@@ -4,6 +4,7 @@ h1
     color: green;
     font-family: sans-serif;
     display: block;
+    margin: inherit;
 }
 
 body
@@ -11,9 +12,17 @@ body
     text-align: center;
     background-color: orange;
     font-family: sans-serif;
+    color: red;
 }
 
 nav
 {
     background-color: salmon;
+}
+
+footer
+{
+    background-color: seagreen;
+    color: snow;
+    
 }

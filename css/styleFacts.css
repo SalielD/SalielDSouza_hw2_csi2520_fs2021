@@ -1,0 +1,27 @@
+h1
+{
+    background-color: lightsalmon;
+    color: royalblue;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline;
+    margin: inherit;
+}
+
+body
+{
+    text-align: center;
+    background-color: lightseagreen;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav
+{
+    background-color: yellow;
+}
+
+footer
+{
+    background-color: powderblue;
+    color: red;
+}

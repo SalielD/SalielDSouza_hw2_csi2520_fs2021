@@ -1,0 +1,46 @@
+h1
+{
+    background-color: aqua;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline;
+    margin: inherit;
+}
+
+body
+{
+    text-align: center;
+    background-color: greenyellow;
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav
+{
+    background-color: yellow;
+}
+
+footer
+{
+    background-color: powderblue;
+    color: red;
+}
+
+th
+{
+    color: green;
+    background-color: peachpuff;
+}
+
+tr
+{
+    color: blue;
+    background-color: yellow;
+}
+
+h2
+{
+    color: darkorchid;
+    background-color: deepskyblue;
+    display: inline;
+}
