@@ -25,7 +25,7 @@ function reply_comment()
 {
     var reply_comment = document.getElementById('reply_comment');
     var text_area = document.getElementById('comment_list');
-    reply_comment.innerHTML += "<p>"
+    reply_comment.innerHTML += "<p>";
     reply_comment.innerHTML += reply_comment.value;
     reply_comment.innerHTML += "</p>"
     reply_comment.value = "";
