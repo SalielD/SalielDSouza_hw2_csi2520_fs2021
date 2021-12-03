@@ -13,4 +13,52 @@ body
     background-color: yellow;
     color: brown;
     font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
 }
+
+.answer-1
+{
+    background-color: green;
+    color: white;
+    font-size: medium;
+}
+
+.answer-2
+{
+    background-color: orange;
+    color: snow;
+    font-size: medium;
+}
+
+
+.answer-3
+{
+    background-color: lightseagreen;
+    color: snow;
+    font-size: medium;
+}
+
+
+.answer-4
+{
+    background-color: blue;
+    color: snow;
+    font-size: medium;
+}
+
+.start-btn
+{
+    background-color: rosybrown;
+    color: snow;
+    font-size: medium;
+
+}
+
+.next-btn 
+{
+    background-color: saddlebrown;
+    color: snow;
+    font-size: medium;
+}
+
