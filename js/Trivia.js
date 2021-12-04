@@ -21,3 +21,19 @@ function startQuiz() // Function to start the quiz
     questionContainerElement.classList.remove('hide');
     setNewQuestion();
 }
+
+function setNewQuestion() // Function to add a new question to the quiz
+{
+    reset(); // Reset questions and answers to their default state
+    displayQuestions(shuffleQuestions[currentQuestionIndex]);
+}
+
+function displayQuestion(question)
+{
+    questionElement.innerText = question.question;
+    question.answers.forEach(answer=>{
+        const button = document.createElement('button');
+        button.innerText = answer.text;
+        button.classList.add('btn');
+    })
+}
